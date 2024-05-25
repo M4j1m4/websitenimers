@@ -1,0 +1,80 @@
+.button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: linear-gradient(to left, #f5d498, #e4bd75);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease;
+    margin-top: 260px;
+  }
+  
+  .button.click {
+    left: 260px;
+    margin-top: 260px;
+  }
+  
+  .button span {
+    color: #d4871a;
+    font-size: 28px;
+    line-height: 45px;
+  }
+  
+  .button.click span:before {
+    content: '\f00d';
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: linear-gradient(to left, #eeb765b4, #eed2a2);
+    transition: left 0.4s ease;
+  
+  }
+  
+  .sidebar.show {
+    left: 0px;
+  }
+  
+  .sidebar .text {
+    color: #faf6f0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: linear-gradient(to left, #eea724, #ffbb3d);
+    letter-spacing: 1px;
+  }
+  
+  .list .nav-link {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+  
+  .list .nav-link:hover {
+    background-color: #d6a336;
+  }
+  .nav-link .icon {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #e4af3d;
+  }
+  .nav-link .link {
+    font-size: 16px;
+    color: #0e0d0d;
+    font-weight: 400;
+  }
+  
+  .list .nav-link:hover .icon,
+  .list .nav-link:hover .link {
+    color: #fff;
+  }
+  

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@font-face {
+	font-family: Hanson;
+	src: url(Hanson-Bold.otf);
+}
+* {
+	font-family: 'Montserrat', sans-serif;
+}body{
+  background-color: snow;
+}
+.thead-dark1{
+    
+    background-color: #F6B61E;
+    color: black;
+    
+    
+}
+.table{
+    
+    font-family: Hanson;
+    margin: 0px;
+    margin-right: 0px;
+    background-color: snow;
+}.button1 {
+    background-color: saddlebrown; /* Green */
+    color: yellow;
+   
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: #F6B61E; 
+    color: black; 
+
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: black;
+  }
+  #add{
+    margin-top: 15px;
+    
+    float: right;
+    margin-right: 65px;
+  } #add1{
+    margin-left: 19%;
+    float: right;
+  }
+  .container-contact1 {
+    width: 2000px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 30px 20px;
+  }.button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: linear-gradient(to left, #f5d498, #e4bd75);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease;
+    margin-top: 260px;
+  }
+  
+  .button.click {
+    left: 260px;
+    margin-top: 260px;
+  }
+  
+  .button span {
+    color: #d4871a;
+    font-size: 28px;
+    line-height: 45px;
+  }
+  
+  .button.click span:before {
+    content: '\f00d';
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: linear-gradient(to left, #eeb765b4, #eed2a2);
+    transition: left 0.4s ease;
+  
+  }
+  
+  .sidebar.show {
+    left: 0px;
+  }
+  
+  .sidebar .text {
+    color: #faf6f0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: linear-gradient(to left, #eea724, #ffbb3d);
+    letter-spacing: 1px;
+  }
+  
+  .list .nav-link {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+  
+  .list .nav-link:hover {
+    background-color: #d6a336;
+  }
+  .nav-link .icon {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #e4af3d;
+  }
+  .nav-link .link {
+    font-size: 16px;
+    color: #0e0d0d;
+    font-weight: 400;
+  }
+  
+  .list .nav-link:hover .icon,
+  .list .nav-link:hover .link {
+    color: #fff;
+  }
+  
+  /* Clothing Logo */
+  .banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+      to left, 
+      rgba(223, 186, 65, 0.52), 
+      rgba(201, 188, 165, 0.73)
+    );
+  }
+  
+  .side-logo img {
+    height: 50%;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  
+  .icon i {
+    color: #943bac;
+    font-size: 40px;
+    margin-left: 90px;
+    position: relative;
+    left: 500px;
+  }
+  
+  .icon i:hover {
+    color: #e4b653;
+  }.search-container{
+    position: absolute;
+    top: 10px;
+    left: 1420px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+     border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease;
+    margin-top: 260px;
+
+  }.search-container i{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+    height: 15px;
+    width: 1  5px;
+    text-align: center;
+     border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease;
+    margin-top: 0px;
+  
+  }.admin{
+    margin-top: 110%;
+  }
+  @media 
+   only screen and (max-width: 972px),
+  (min-device-width: 972px) and (max-device-width: 972px)  {
+  
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+      display: block; 
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+    tr { border: 1px solid #ccc; }
+    
+    td { 
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee; 
+      position: relative;
+      padding-left: 50%; 
+    }
+    
+    td:before { 
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+    }
+    
+    /*
+    Label the data
+    */
+  
+  }

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+  
+    <!-- External CSS & JS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/328d66ef2b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8f27d68390.js" crossorigin="anonymous"></script>
+    <!-- Website Icon -->
+    <link rel="icon" href="img/logo.png" type="image/icon-type">
+  </head>
+  <body>
+    <div class="button">
+      <span class="fa-solid fa-bars"></span>
+    </div>
+    <div class="sidebar">
+      <div class="text">ChilliManila Clothing</div>
+      <ul class="list">
+        <li class="list">
+          <a href="HOME.html" class="nav-link">
+            <i class="fa fa-home icon"></i>
+            <span class="link">Home</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="Login.php" class="nav-link">
+            <i class="fa fa-user-circle icon"></i>
+            <span class="link">Log In / Sign Up</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="about.html" class="nav-link">
+            <i class="fa fa-info-circle icon"></i>
+            <span class="link">About</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="ContactUs.html" class="nav-link">
+            <i class="fa fa-comment icon"></i>
+   
+            <span class="link">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <header>
+      <h1>Shop Online</h1>
+      <div class="list">
+      <div class="cart-box">
+        <div class="cart-icon">
+          <i class="fas fa-cart-arrow-down fa-2x"></i>
+        </div>
+        <div class="whole-cart-window hide">
+          <h2>Shopping Bag</h2>
+          <div class="cart-wrapper">
+          </div>
+          <div class="subtotal">Subtotal: $0.00</div>
+          <div class="checkout">Checkout</div>
+          <div class="view-cart">View Cart</div>
+        </div>
+      </div>
+      </div>
+    </header>
+    <section class="shop-section">
+      <div class="card-wrapper">
+        <div data-id="1" class="card-item">
+          <img src="/img/pp1.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CM BEN DAVIS BLACK</h3>
+            <p>
+              <span
+                >Men's Collection</span
+              >
+              <span class="price">Price: $599</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div data-id="2" class="card-item">
+          <img src="/img/pp2.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CM POLO HALF ZIP DAVIS</h3>
+            <p>
+              <span>
+                Men's Collection
+              </span>
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 3 -->
+        <div data-id="3" class="card-item">
+          <img src="/img/pp3.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CM BEN DAVIS POLO</h3>
+            <p>
+              <span
+                >Men's Collection.</span
+              >
+
+              <span class="price">Price: $650</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 4 -->
+        <div data-id="4" class="card-item">
+          <img src="/img/pp4.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CM BEN DAVIS RED</h3>
+            <p>
+              <span>
+              Men's Collection.
+              </span>
+
+              <span class="price">Price: $750</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        <!-- product 5 -->
+        <div data-id="5" class="card-item">
+          <img src="/img/pp5.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>OG VETERANO BLACK</h3>
+            <p>
+              <span
+                >Men's Collection</span
+              >
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 6 -->
+        <div data-id="6" class="card-item">
+          <img src="/img/pp6.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>OG VETERANO BLUE</h3>
+            <p>
+              <span>
+                Men's Collection.
+              </span>
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 7 -->
+        <div data-id="7" class="card-item">
+          <img src="/img/pp7.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>OG VETERANO POLO</h3>
+            <p>
+              <span>
+                Men's Collection.
+              </span>
+
+              <span class="price">Price: $599</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 8 -->
+        <div data-id="8" class="card-item">
+          <img src="/img/pp8.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>OG VETERANO LONG SLEEVE</h3>
+            <p>
+              <span
+                >Men's Collection.</span
+              >
+
+              <span class="price">Price: $599</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- product 9 -->
+
+        <div data-id="9" class="card-item">
+          <img src="/img/pp9.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>DENIS RODMAN BLACK</h3>
+            <p>
+              <span
+                >Men's Collection</span
+              >
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        <div data-id="10" class="card-item">
+          <img src="/img/pp10.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>GNARLY WHITE</h3>
+            <p>
+              <span
+                >Men's Collection</span
+              >
+
+              <span class="price">Price: $799</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        <div data-id="12" class="card-item">
+          <img src="/img/pp12.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>BEN DAVIS WHITE</h3>
+            <p>
+              <span
+                >Men's Collection</span
+              >
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        <div data-id="13" class="card-item">
+          <img src="/img/pw1.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CAMI TANK TOP</h3>
+            <p>
+              <span
+                >Women's Collection.</span
+              >
+
+              <span class="price">Price: $499</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="14" class="card-item">
+          <img src="/img/pw2.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>V-NECK LACE KNEE-LENGTH DRESS</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $499</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="15" class="card-item">
+          <img src="/img/pw3.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>CASUAL JACKET RED</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $999</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="16" class="card-item">
+          <img src="/img/pw4.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>SWING PAJAMA TOP</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $999</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="17" class="card-item">
+          <img src="/img/pw5.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>LONG SLEEVE PAJAMA TREE</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $799</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="18" class="card-item">
+          <img src="/img/pw6.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>LONG SLEEVE PLAIN BLUE</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="19" class="card-item">
+          <img src="/img/pw7.jpg" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>YELLOW DRESS</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $999</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+        
+        <div data-id="20" class="card-item">
+          <img src="/img/pw8.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>TUNIC TOP</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $899</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="21" class="card-item">
+          <img src="/img/pw9.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>SLEEVELESS</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $299</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="22" class="card-item">
+          <img src="/img/pw10.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>LONGLINE SPORTS BRA TOP</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $299</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="23" class="card-item">
+          <img src="/img/pw11.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>SWEATER KNIT CARDIGAN</h3>
+            <p>
+              <span
+                >Womne's Collection</span
+              >
+
+              <span class="price">Price: $899</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="24" class="card-item">
+          <img src="/img/pw12.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>TANK TOP</h3>
+            <p>
+              <span
+                >Women's Collection</span
+              >
+
+              <span class="price">Price: $399</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="25" class="card-item">
+          <img src="/img/pk1.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>GRAPHIC TREE</h3>
+            <p>
+              <span
+                >Kids's Collection</span
+              >
+
+              <span class="price">Price: $599</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="26" class="card-item">
+          <img src="/img/pk2.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>PRINTED CAMISOLE DRESS</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $599</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="27" class="card-item">
+          <img src="/img/pk3.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>W = EASY SHORTS</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $600</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="28" class="card-item">
+          <img src="/img/pk4.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>EASY SHORTS</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $650</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="29" class="card-item">
+          <img src="/img/pk5.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>SHORT SLEEVE T-SHIRT</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $450</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="30" class="card-item">
+          <img src="/img/pk6.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>PLAIN T-SHIRT</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $450</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="31" class="card-item">
+          <img src="/img/pk7.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>JEANS</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $799</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="32" class="card-item">
+          <img src="/img/pk8.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>POLO T-SHIRT</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $899</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="33" class="card-item">
+          <img src="/img/pk9.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>KNITTED LONG SLEEVE	</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $899</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="34" class="card-item">
+          <img src="/img/pk10.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>HODDIE</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $899</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="35" class="card-item">
+          <img src="/img/pk11.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>MINI SKIRT</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+
+        <div data-id="36" class="card-item">
+          <img src="/img/pk12.png" alt="" width = "400" height = "200">
+          <div class="details">
+            <h3>SLEVELESS T-SHIRT</h3>
+            <p>
+              <span
+                >Kid's Collection</span
+              >
+
+              <span class="price">Price: $699</span>
+              <span class="add-to-cart-btn">Add To Cart</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Loginscript.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

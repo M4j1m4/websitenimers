@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@font-face {
+	font-family: Hanson;
+	src: url(Hanson-Bold.otf);
+}
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #ffffff;
+}
+.navbar{
+	background-color: transparent;
+}
+.logo{
+	cursor: pointer;
+	width: 9rem;
+	margin-left: 4rem;
+	align-self: center;
+}
+
+/* menu/navbar styles here*/
+.nav-link,
+
+.nav-item{
+    color: rgba(245, 254, 255, 0.979);
+	padding-top: 10px;
+	font-family: Helvetica;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+} 
+.navbar-nav {
+	margin-right: 30px;
+}
+.navbar-nav a {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.navbar-toggler {   /* menu collapse when in small screen*/
+	font-size: 10px;
+	line-height: 0.3;
+	background: rgb(138, 73, 73);
+}
+.active_nav {
+	background-color: saddlebrown;
+	transition: 0.6s;
+	height: 38px;
+}
+.active_nav .logo {
+	width: 6rem;
+	transition: 0.6s;
+}
+.active_nav .nav_item {
+	font-size: 12px;
+	transition: 0.6s;
+}
+.active_nav .navbar_nav a {
+	font-size: 12px;
+	transition: 0.6s;
+}
+.active_nav .nav-link {
+	font-size: 12px;
+	transition: 0.6s;
+}
+.active_nav span .material-icons {
+	size: 12px;
+	transition: 0.6s;
+}
+
+/* menu styles end here*/
+
+/* section padding*/
+.about {
+	margin: auto;
+	margin-left: 20%;
+	text-align: center;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.about-text h2 {
+	font-family: Hanson;
+	padding-bottom: 20px;
+}
+.about-text p {
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+.photo .subtitle {
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+.photo .divtitle {
+	font-family: Hanson;
+	font-size: 1.3rem;
+	margin-top: -1rem !important;
+	padding-bottom: 20px;
+}
+/*carousel styling*/
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-family: Hanson;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(41, 40, 40, 0.285);
+	z-index: 1;
+}
+.w-100 {
+	height: 100vh;  /* size of carousel img*/
+}
+
+/*All about team, protfolio and services*/
+.portfolio .card {
+	box-shadow: 15px 15px 40px black
+}
+.team .card {
+	box-shadow: 15px 15px 40px black
+	
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 15px;
+}
+ /*end of All about team, protfolio and services*/
+
+
+/* 3 column Features styles here*/
+.features {
+    margin: 4em auto; 
+    padding: 1em;  
+    position: relative; 
+  }  
+.feature-title {
+	font-family: Helvetica;
+    color: #333;
+    font-size: 15px;
+	font-weight: lighter;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+.text {
+	margin-top: -20px !important;
+    color:rgb(0, 0, 0);
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 12px;
+  }
+.row {
+	margin: auto;
+	padding: 8px;
+  }
+.im2 {
+	display: none;
+}
+.m1:hover .im1 {
+	display: none;
+}
+.m1:hover .im2 {
+	display: block;
+}
+.im4 {
+	display: none;
+}
+.m2:hover .im3 {
+	display: none;
+}
+.m2:hover .im4 {
+	display: block;
+}
+
+
+/* portfolio styles here*/
+.portfolio .box-container .col-12 .card:hover .img-area img{
+	transform: scale(1.1);
+	-webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+.portfolio .box-container {
+	background-color: white;
+	
+}
+.portfolio .description {
+	color: white;
+	margin-top: 2em;
+}
+.portfolio .img-area{
+	margin: 2rem;
+}
+.portfolio .box-container .card{
+	margin: 2rem;
+}
+.portfolio .card .image {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.portfolio h2 {
+	font-family: Hanson;
+}
+.services h2 {
+	font-family: Hanson;
+}
+.services .card-title {
+	font-family: Hanson;
+}
+.services .lead {
+	font-family: Helvetica;
+}
+.team h2 {
+	font-family: Hanson;
+}
+
+/* FOOTER STYLES */
+.page-footer {
+    background-color: #6b4938;
+    color: white  ;
+    padding: 40px 0 30px; 
+}
+.footer-copyright {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+	margin: 12px;
+}
+.page-footer .container {
+    padding: 1rem 0;
+}
+
+.page-footer .container a{
+    line-height: 3rem;
+    font-size: 20px;
+    color:#fff;
+    margin: 12px;
+	border-radius: 80%;
+}
+.page-footer .container a:hover {
+	background-color: rgb(184, 148, 79);
+}
+.page-footer p {
+	font-family: Helvetica;
+	font-size: 10px;
+}
+
+/* size sa mga small screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+	.about-text{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+		text-align: center;
+		margin-right: 100px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
